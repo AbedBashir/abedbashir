@@ -6,6 +6,10 @@
 
 .skills__content:last-child {
   grid-column: span 2;
+
+  & .skills__box{
+    justify-content: space-evenly;
+  }
 }
 
 
@@ -30,7 +34,7 @@
 
 .skills__box{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 2.5rem;
 }
 
