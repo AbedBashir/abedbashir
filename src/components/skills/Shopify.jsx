@@ -12,14 +12,14 @@ const Shopify = () => {
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Liquid</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                   <div>  
                     <h3 className="skills__name">Theme Customizations</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
@@ -42,14 +42,14 @@ const Shopify = () => {
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">JSON Templates</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Schemas</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
 

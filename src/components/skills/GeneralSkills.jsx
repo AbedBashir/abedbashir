@@ -12,21 +12,21 @@ const GeneralSkills = () => {
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Microsoft</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Google</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Jira</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ const GeneralSkills = () => {
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Slack</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">

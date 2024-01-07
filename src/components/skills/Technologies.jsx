@@ -19,14 +19,14 @@ const Technologies = () => {
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">Git</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
               <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                   <div>
                     <h3 className="skills__name">GitHub</h3>
-                    <span className="skills__level">Advanced</span>
+                    <span className="skills__level">Expert</span>
                   </div>
               </div>
             </div>
