@@ -34,7 +34,7 @@ const Testimonials = () => {
         className="testimonials__container">
         {Data.map(({id,title,description}) => {
           return(
-            <SwiperSlide className="testimoniala__card" key={id}>
+            <SwiperSlide className="testimonial__card" key={id}>
               <i class='bx bxs-quote-alt-left testimonial__img'></i>
               <h3 className="testimonial__name">{title}</h3>
               <p className="testimonial__description">{description}</p>
