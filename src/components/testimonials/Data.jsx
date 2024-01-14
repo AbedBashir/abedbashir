@@ -19,4 +19,10 @@ export const Data =  [
     description:
       "Abed is a very passionate person. I was his technical lead and he always showed me consistency in his work, attention to details, and most important thing, his honesty in his work. I couldn't be more proud of him for years. Cheers!",
   },
+  {
+    id: 4,
+    title: "Nourhane Shbaro",
+    description:
+      "Exceptional experience working with Abed! His speed, attention to detail, and unwavering helpfulness made our collaboration smooth and efficient. His expertise significantly contributed to the success of my project. Highly recommend for anyone seeking a skilled and reliable web developer!"  
+  },
 ];
