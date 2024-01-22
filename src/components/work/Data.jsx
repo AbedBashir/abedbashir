@@ -20,6 +20,7 @@ import LF from "../../assets/LF.png";
 import Authentic from "../../assets/AuthenticS.png";
 import PlanB from "../../assets/planb.png";
 import BulletVPN from "../../assets/BulletVPN.png";
+import Aura from "../../assets/Aura.png";
 
 
 export const projectsData = [
@@ -220,6 +221,15 @@ export const projectsData = [
     company: "Parallel Holdings",
     location: "Egypt",
     link: "https://eg.looliacloset.com/"
+  },
+  {
+    id: 23,
+    image: Aura,
+    title: "Aura Agency",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.auraagency.com/"
   },
 ];
 
