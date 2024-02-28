@@ -250,7 +250,7 @@ export const projectsData = [
     id: 25,
     image: CO,
     title: "Clinique Odyssey",
-    category: "Shopify",
+    category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://cliniqueodyssey.com/"
@@ -268,7 +268,7 @@ export const projectsData = [
     id: 27,
     image: GA,
     title: "Gayane Avertisyan",
-    category: "Shopify",
+    category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://www.gayaneavetisyan.ca/"
@@ -277,7 +277,7 @@ export const projectsData = [
     id: 28,
     image: JeuxMania,
     title: "Jeux Mania",
-    category: "Shopify",
+    category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://www.jeux-mania.ca/"
