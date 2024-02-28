@@ -21,6 +21,12 @@ import Authentic from "../../assets/AuthenticS.png";
 import PlanB from "../../assets/planb.png";
 import BulletVPN from "../../assets/BulletVPN.png";
 import Aura from "../../assets/Aura.png";
+import ChaosArtGallery from "../../assets/ChaosArtGallery.png";
+import CO from "../../assets/CliniqueOdessey.png";
+import Khatib from "../../assets/El-KhatibLawFirm.png";
+import GA from "../../assets/GayaneAver.png";
+import JeuxMania from "../../assets/JeuxMania.png";
+import WastedTreasures from "../../assets/WastedTreasures.png";
 
 
 export const projectsData = [
@@ -230,6 +236,60 @@ export const projectsData = [
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://www.auraagency.com/"
+  },
+  {
+    id: 24,
+    image: ChaosArtGallery,
+    title: "Chaos Art Gallery",
+    category: "Wordpress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://www.chaosartgallery.com/"
+  },  
+  {
+    id: 25,
+    image: CO,
+    title: "Clinique Odyssey",
+    category: "Shopify",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://cliniqueodyssey.com/"
+  },  
+  {
+    id: 26,
+    image: Khatib,
+    title: "El-Khatib Law Firm",
+    category: "Wordpress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://www.khatiblegal.com/"
+  },  
+  {
+    id: 27,
+    image: GA,
+    title: "Gayane Avertisyan",
+    category: "Shopify",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.gayaneavetisyan.ca/"
+  },  
+  {
+    id: 28,
+    image: JeuxMania,
+    title: "Jeux Mania",
+    category: "Shopify",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.jeux-mania.ca/"
+  },  
+  {
+    id: 29,
+    image: WastedTreasures,
+    title: "Wasted Treasures",
+    category: "Wordpress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://www.wastedtreasures.org/"
   },
 ];
 
