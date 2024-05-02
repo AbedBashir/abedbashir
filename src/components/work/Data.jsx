@@ -27,13 +27,15 @@ import Khatib from "../../assets/El-KhatibLawFirm.png";
 import GA from "../../assets/GayaneAver.png";
 import JeuxMania from "../../assets/JeuxMania.png";
 import WastedTreasures from "../../assets/WastedTreasures.png";
-
+import RIIEQ from "../../assets/RIIEQ.png";
+import SNT from "../../assets/SNT.png";
+import SIS from "../../assets/SIS.png";
 
 export const projectsData = [
   {
     id: 1,
     image: SexxxPlus,
-    title: "SexxxPlus",
+    title: "Boutique SP",
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
@@ -291,6 +293,36 @@ export const projectsData = [
     location: "Lebanon, Beirut",
     link: "https://www.wastedtreasures.org/"
   },
+  {
+    id: 30,
+    image: RIIEQ,
+    title: "RIIEQ",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.riieq.ca/"
+  },
+  {
+    id: 31,
+    image: SNT,
+    title: "Le Studio N.20",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.lestudiono20.com/"
+  },
+  {
+    id: 32,
+    image: SIS,
+    title: "SIS Lebanon",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://www.sis-lebanon.com/"
+  },
+    
+ 
+
 ];
 
 
