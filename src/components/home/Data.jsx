@@ -22,7 +22,7 @@ const Data = () => {
       <h3 className="home__subtitle">Senior Web Developer</h3>
 
       <p className="home__description">
-        I am highly organized, efficient and proactive Senior Web Developer. I deliver high-quality work consistently while meeting deadlines and maintaining confidentiality.
+        I am highly organized, efficient and proactive Senior Web Developer. I deliver high-quality work consistently while meeting deadlines and maintaining confidentiality.<br></br>Owner of <a href="https://bashfusion.in" target='_blank'>BASHFusion</a>
       </p>
 
     <a href="#contact" className="button button--flex">

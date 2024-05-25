@@ -30,6 +30,7 @@ import WastedTreasures from "../../assets/WastedTreasures.png";
 import RIIEQ from "../../assets/RIIEQ.png";
 import SNT from "../../assets/SNT.png";
 import SIS from "../../assets/SIS.png";
+import LR from "../../assets/Learnopolis.png";
 
 export const projectsData = [
   {
@@ -319,6 +320,15 @@ export const projectsData = [
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://www.sis-lebanon.com/"
+  },
+  {
+    id: 33,
+    image: LR,
+    title: "Learnopolis",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://learnopolis-institute.com/"
   },
     
  
