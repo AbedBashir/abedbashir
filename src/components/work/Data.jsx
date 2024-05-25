@@ -31,6 +31,8 @@ import RIIEQ from "../../assets/RIIEQ.png";
 import SNT from "../../assets/SNT.png";
 import SIS from "../../assets/SIS.png";
 import LR from "../../assets/Learnopolis.png";
+import WillGo from "../../assets/WillGo.png";
+import JuniorKids from "../../assets/JuniorKids.png";
 
 export const projectsData = [
   {
@@ -329,6 +331,24 @@ export const projectsData = [
     company: "Growth Hacker",
     location: "Montreal, Qc",
     link: "https://learnopolis-institute.com/"
+  },
+  {
+    id: 34,
+    image: WillGo,
+    title: "Déménagement Will Go",
+    category: "Wordpress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://demenagementwillgo.com/"
+  },
+  {
+    id: 35,
+    image: JuniorKids,
+    title: "Junior Kids",
+    category: "Shopify",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://juniorkids.ca/"
   },
     
  
