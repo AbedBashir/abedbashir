@@ -33,6 +33,9 @@ import SIS from "../../assets/SIS.png";
 import LR from "../../assets/Learnopolis.png";
 import WillGo from "../../assets/WillGo.png";
 import JuniorKids from "../../assets/JuniorKids.png";
+import Twysted from "../../assets/Twysted.png";
+import GMR from "../../assets/GMR.png";
+import Filco from "../../assets/Filco.png";
 
 export const projectsData = [
   {
@@ -42,7 +45,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://sexxxplus.com/"
+    link: "https://sexxxplus.com/",
   },
   {
     id: 2,
@@ -51,7 +54,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://mercermackay.com/"
+    link: "https://mercermackay.com/",
   },
   {
     id: 3,
@@ -60,7 +63,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.verbproducts.com"
+    link: "https://www.verbproducts.com",
   },
   {
     id: 4,
@@ -69,7 +72,7 @@ export const projectsData = [
     category: "shopify",
     company: "Freelance",
     location: "Lebanon",
-    link: "https://koibei.com/"
+    link: "https://koibei.com/",
   },
   {
     id: 5,
@@ -78,7 +81,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://vergerduflancnord.com"
+    link: "https://vergerduflancnord.com",
   },
   {
     id: 6,
@@ -87,7 +90,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.capsulcase.com/"
+    link: "https://www.capsulcase.com/",
   },
   {
     id: 7,
@@ -96,7 +99,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://go360canada.com/"
+    link: "https://go360canada.com/",
   },
   {
     id: 8,
@@ -105,7 +108,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.coteaudesartisans.com/"
+    link: "https://www.coteaudesartisans.com/",
   },
   {
     id: 9,
@@ -114,7 +117,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Freelance",
     location: "Lebanon",
-    link: "http://pbc-lb.com/"
+    link: "http://pbc-lb.com/",
   },
   {
     id: 10,
@@ -123,7 +126,7 @@ export const projectsData = [
     category: "shopify",
     company: "Freelance",
     location: "Lebanon",
-    link: "https://chapteronee.com/"
+    link: "https://chapteronee.com/",
   },
   {
     id: 11,
@@ -132,7 +135,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://lesfinfinettes.com/"
+    link: "https://lesfinfinettes.com/",
   },
   {
     id: 12,
@@ -141,7 +144,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://partyomax.com/"
+    link: "https://partyomax.com/",
   },
   {
     id: 13,
@@ -150,7 +153,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.centredumoteurgranby.ca/"
+    link: "https://www.centredumoteurgranby.ca/",
   },
   {
     id: 14,
@@ -159,7 +162,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Freelance",
     location: "Montreal, Qc",
-    link: "https://authentiksecurite.com/"
+    link: "https://authentiksecurite.com/",
   },
   {
     id: 15,
@@ -168,7 +171,7 @@ export const projectsData = [
     category: "shopify",
     company: "Freelance",
     location: "Lebanon",
-    link: "https://electronstech.com/"
+    link: "https://electronstech.com/",
   },
   {
     id: 16,
@@ -177,7 +180,7 @@ export const projectsData = [
     category: "WordPress",
     company: "Securealm",
     location: "Lebanon",
-    link: "https://www.bulletvpn.com/"
+    link: "https://www.bulletvpn.com/",
   },
   {
     id: 17,
@@ -186,7 +189,7 @@ export const projectsData = [
     category: "shopify",
     company: "Parallel Holdings",
     location: "Egypt",
-    link: "https://www.eg.sohaticare.com/"
+    link: "https://www.eg.sohaticare.com/",
   },
   {
     id: 18,
@@ -195,7 +198,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.vapeshopmania.ca/"
+    link: "https://www.vapeshopmania.ca/",
   },
   {
     id: 19,
@@ -204,7 +207,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://naturesageomega3.com/"
+    link: "https://naturesageomega3.com/",
   },
   {
     id: 20,
@@ -213,7 +216,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://bimoo.ca/"
+    link: "https://bimoo.ca/",
   },
   {
     id: 21,
@@ -222,7 +225,7 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://boutique-distribution-vision.com/"
+    link: "https://boutique-distribution-vision.com/",
   },
   {
     id: 22,
@@ -231,7 +234,7 @@ export const projectsData = [
     category: "shopify",
     company: "Parallel Holdings",
     location: "Egypt",
-    link: "https://eg.looliacloset.com/"
+    link: "https://eg.looliacloset.com/",
   },
   {
     id: 23,
@@ -240,7 +243,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.auraagency.com/"
+    link: "https://www.auraagency.com/",
   },
   {
     id: 24,
@@ -249,8 +252,8 @@ export const projectsData = [
     category: "Wordpress",
     company: "Freelance",
     location: "Lebanon, Beirut",
-    link: "https://www.chaosartgallery.com/"
-  },  
+    link: "https://www.chaosartgallery.com/",
+  },
   {
     id: 25,
     image: CO,
@@ -258,8 +261,8 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://cliniqueodyssey.com/"
-  },  
+    link: "https://cliniqueodyssey.com/",
+  },
   {
     id: 26,
     image: Khatib,
@@ -267,8 +270,8 @@ export const projectsData = [
     category: "Wordpress",
     company: "Freelance",
     location: "Lebanon, Beirut",
-    link: "https://www.khatiblegal.com/"
-  },  
+    link: "https://www.khatiblegal.com/",
+  },
   {
     id: 27,
     image: GA,
@@ -276,8 +279,8 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.gayaneavetisyan.ca/"
-  },  
+    link: "https://www.gayaneavetisyan.ca/",
+  },
   {
     id: 28,
     image: JeuxMania,
@@ -285,8 +288,8 @@ export const projectsData = [
     category: "shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.jeux-mania.ca/"
-  },  
+    link: "https://www.jeux-mania.ca/",
+  },
   {
     id: 29,
     image: WastedTreasures,
@@ -294,7 +297,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Freelance",
     location: "Lebanon, Beirut",
-    link: "https://www.wastedtreasures.org/"
+    link: "https://www.wastedtreasures.org/",
   },
   {
     id: 30,
@@ -303,7 +306,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.riieq.ca/"
+    link: "https://www.riieq.ca/",
   },
   {
     id: 31,
@@ -312,7 +315,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.lestudiono20.com/"
+    link: "https://www.lestudiono20.com/",
   },
   {
     id: 32,
@@ -321,7 +324,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://www.sis-lebanon.com/"
+    link: "https://www.sis-lebanon.com/",
   },
   {
     id: 33,
@@ -330,7 +333,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://learnopolis-institute.com/"
+    link: "https://learnopolis-institute.com/",
   },
   {
     id: 34,
@@ -339,7 +342,7 @@ export const projectsData = [
     category: "Wordpress",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://demenagementwillgo.com/"
+    link: "https://demenagementwillgo.com/",
   },
   {
     id: 35,
@@ -348,23 +351,45 @@ export const projectsData = [
     category: "Shopify",
     company: "Growth Hacker",
     location: "Montreal, Qc",
-    link: "https://juniorkids.ca/"
+    link: "https://juniorkids.ca/",
   },
-    
- 
-
+  {
+    id: 36,
+    image: GMR,
+    title: "Green Mount Recycling",
+    category: "WordPress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://www.greenmountrecycling.com/",
+  },
+  {
+    id: 37,
+    image: Filco,
+    title: "Filco LB",
+    category: "WordPress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://www.filco-lb.com/",
+  },
+  {
+    id: 38,
+    image: Twysted,
+    title: "Twysted",
+    category: "WordPress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "#",
+  },
 ];
-
-
 
 export const projectNav = [
   {
-    name: 'all',
+    name: "all",
   },
   {
-    name: 'shopify',
+    name: "shopify",
   },
   {
-    name: 'wordPress',
+    name: "wordPress",
   },
 ];

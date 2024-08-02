@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const info = () => {
   return (
@@ -9,17 +9,17 @@ const info = () => {
         <span className="about__subtitle">4+ Years</span>
       </div>
       <div className="about__box">
-        <i class='bx bx-check about__icon'></i>
+        <i class="bx bx-check about__icon"></i>
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">20+ Projects</span>
+        <span className="about__subtitle">30+ Projects</span>
       </div>
       <div className="about__box">
-        <i class='bx bx-cog about__icon'></i>
+        <i class="bx bx-cog about__icon"></i>
         <h3 className="about__title">Maintained</h3>
-        <span className="about__subtitle">30+ Websites</span>
+        <span className="about__subtitle">50+ Websites</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default info
+export default info;
