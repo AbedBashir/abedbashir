@@ -36,6 +36,8 @@ import JuniorKids from "../../assets/JuniorKids.png";
 import Twysted from "../../assets/Twysted.png";
 import GMR from "../../assets/GMR.png";
 import Filco from "../../assets/Filco.png";
+import CF from "../../assets/Caesars Flame.png";
+import CL from "../../assets/CuriousLemons.png";
 
 export const projectsData = [
   {
@@ -379,6 +381,24 @@ export const projectsData = [
     company: "Freelance",
     location: "Lebanon, Beirut",
     link: "#",
+  },
+  {
+    id: 39,
+    image: CL,
+    title: "Curious Lemon",
+    category: "WordPress",
+    company: "Growth Hacker",
+    location: "Montreal, Qc",
+    link: "https://curiouslemons.com/",
+  },
+  {
+    id: 40,
+    image: CF,
+    title: "Caesars Flame",
+    category: "WordPress",
+    company: "Freelance",
+    location: "Lebanon, Beirut",
+    link: "https://caesarsflame.com/",
   },
 ];
 
