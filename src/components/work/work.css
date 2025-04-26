@@ -1,4 +1,4 @@
-.work__filters{
+.work__filters {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-bottom: var(--mb-2);
 }
 
-.work__item{
+.work__item {
   cursor: pointer;
   color: var(--title-color);
   padding: 0.25rem .75rem;
@@ -14,37 +14,30 @@
   border-radius: .5rem;
   text-transform: capitalize;
 
-  &:hover{
+  &:hover {
     background-color: var(--title-color);
     color: var(--container-color);
   }
 }
 
-.work__container{
+.work__container {
   grid-template-columns: repeat(3, max-content);
   gap: 2rem;
   justify-content: center;
 }
 
-.work__card{
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
-  border-radius: 1rem;
-}
-
-.work__img{
+.work__img {
   width: 295px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
 
-.work__title{
+.work__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
-.work__button{
+.work__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
   display: flex;
@@ -52,76 +45,155 @@
   column-gap: .25rem;
 }
 
-.work__button-icon{
+.work__button-icon {
   font-size: 1rem;
   transition: .4s;
 }
 
-.work__button:hover .work__button-icon{
+.work__button:hover .work__button-icon {
   transform: translateX(.25rem);
 }
 
 /* active work */
-.active-work{
+.active-work {
   background-color: var(--title-color);
   color: var(--container-color);
 }
 
-.work__reference{
-  font-size:var(--tiny-font-size);
+.work__reference {
+  font-size: var(--tiny-font-size);
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For Extra large devices */
 @media screen and (max-width: 1100px) {
-  .work__container{
+  .work__container {
     grid-template-columns: repeat(2, max-content);
   }
 }
 
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .work__container{
+  .work__container {
     gap: 1.25rem;
   }
 
-  .word__card{
+  .word__card {
     padding: 1rem;
   }
 
-  .work__img{
+  .work__img {
     margin-bottom: .75rem;
   }
 
-  .work__title{
+  .work__title {
     margin-bottom: .25rem;
   }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  .work__container{
+  .work__container {
     grid-template-columns: max-content;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .work__container{
+  .work__container {
     grid-template-columns: 1fr;
   }
 
-  .work__img{
+  .work__img {
     width: 100%;
   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .work__item{
+  .work__item {
     font-size: var(--small-font-size);
   }
 
-  .work__filters{
+  .work__filters {
     column-gap: .25rem;
   }
+}
+
+.work__card {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  border-radius: 1rem;
+}
+
+/* Both images */
+.work__img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Starting image */
+.starting__img {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  border: 2px solid #1e1e1e;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Scrolling image */
+.scrolling__img {
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 8s linear 0.2s;
+  /* Shorter scroll time, and smaller delay */
+  z-index: 0;
+}
+
+/* Hover effects for images */
+.work__card:hover .starting__img {
+  opacity: 0;
+}
+
+.work__card:hover .scrolling__img {
+  opacity: 1;
+  transform: translateY(calc(-100% + 350px));
+}
+
+/* Texts */
+.work__title,
+.work__reference,
+.work__button {
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+}
+
+/* Texts fade */
+.fade-in__hover {
+  opacity: 1;
+  /* Visible by default */
+  visibility: visible;
+  /* Visible by default */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.work__card:hover .fade-in__hover {
+  opacity: 0;
+  visibility: hidden;
 }
